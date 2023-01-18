@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+body::-webkit-scrollbar {
+  background-color: rgba(255, 252, 240, 0);
+  width: 0.5rem;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(0, 242, 113);
+  border-radius: 11px;
+}
+#nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 34px;
+  border: 0.3px solid rgba(135, 135, 135, 0.593);
+  border-right: none;
+  border-right: none;
+  max-height: 4rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.under-navbar img {
+  width: 3.3rem;
+}
+.color {
+  color: rgba(255, 0, 0, 0.692);
+}
+#under-navbar1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  text-align: center;
+  font-size: 12px;
+  padding: 110px;
+  font-weight: 900;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.navbar-manu {
+  align-self: center;
+}
+.navbar-manu-diff {
+  position: relative;
+  bottom: 9px;
+}
+#under-navbar1 .gift-nav-image img {
+  width: 50px;
+  position: relative;
+  top: 5px;
+}
+
+.navbar-manu:hover,.gift-nav-image:hover{
+color: rgba(16, 159, 40, 0.823);
+}
+
+#under-navbar2 {
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* offer part of the daily object */
+
+#offer {
+  height: 30%;
+}
+#offer img {
+  width: 100%;
+}
+
+/* sliding image part */
+#sliding-images {
+  background-color: black;
+  height: 70vh;
+  color: beige;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+}
+#sliding-images > .under-sliding {
+  border: 2px solid white;
+  width: 30%;
+  height: 80%;
+}
+.under-sliding h2 {
+  position: absolute;
+  top: 60%;
+  left: 7%;
+  z-index: 1;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+}
+.under-sliding {
+overflow: hidden;
+}
+.under-sliding img{
+width: 100%;
+height: 100%;
+}
+
+/* shop categories section of this website  */
+
+#shop-categories {
+  display: flex;
+  height: 60vh;
+  padding: 55px;
+  padding-right: 10px;
+}
+#shop-categories .under-shop-categories {
+}
+.first-categories {
+  width: 25%;
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding: 70px;
+  margin-right: 50px;
+}
+.first-categories h1 {
+  font-family: "Trade Gothic LT Pro", sans-serif !important;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.first-categories p {
+  font-family: "Trade Gothic LT Pro", sans-serif !important;
+  font-size: 14px;
+}
+.under-shop-categories ~ .under-shop-categories {
+  width: 75%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 15px;
+  padding: 30px;
+}
+.categories {
+  border: 2px solid black;
+}
