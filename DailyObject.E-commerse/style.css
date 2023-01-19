@@ -146,3 +146,120 @@ height: 100%;
 .categories {
   border: 2px solid black;
 }
+
+/* backpack image */
+
+#backpack {
+  height: 90%;
+  margin-bottom: 40px;
+}
+#backpack > img {
+  width: 100%;
+}
+
+/* studio collection section  */
+
+#studio-collection {
+  padding: 40px;
+  margin-bottom: 20px;
+}
+#studio-collection #studio-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 900;
+  font-size: 25px;
+  margin-bottom: 27px;
+}
+#allstudio-collection {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-content: center;
+}
+#allstudio-collection img {
+  width: 100%;
+}
+.under-studio-collection h2 {
+  font-size: 19px;
+}
+.under-studio-collection p {
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+.under-studio-collection button {
+  border: none;
+  text-decoration: underline;
+  font-size: 16px;
+  background-color: transparent;
+}
+
+/* messengers bagss section  */
+
+#messenger-bags {
+  height: 90%;
+}
+#messenger-bags img {
+  width: 100%;
+}
+
+/* new arrivals section */
+
+#new-arrivals {
+  display: flex;
+  height: 60vh;
+  padding: 55px;
+  padding-right: 10px;
+}
+.under-new-arrivals {
+  width: 25%;
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding: 70px;
+  margin-right: 50px;
+}
+.under-new-arrivals h1 {
+  font-family: "Trade Gothic LT Pro", sans-serif !important;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.under-new-arrivals p {
+  font-family: "Trade Gothic LT Pro", sans-serif !important;
+  font-size: 16px;
+}
+
+#parentof-categories2 {
+  width: 75%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 15px;
+  padding: 30px;
+}
+.categories2 {
+  border: 2px solid black;
+}
+
+/* charging solutions and work solution  */
+
+#charge-and-work-solution {
+  padding: 40px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+#charge-and-work-solution img {
+  width: 100%;
+  margin-bottom: 5px;
+}
+.under-charge-and-work h2 {
+  font-size: 19px;
+}
+.under-charge-and-work button {
+  border: none;
+  text-decoration: underline;
+  font-size: 16px;
+  background-color: transparent;
+}
+
