@@ -22,8 +22,11 @@ let image_1 = [
 
   "https://images.dailyobjects.com/marche/assets/images/other/tote-ups.jpg?tr=cm-pad_crop,v-2,w-1001,dpr-1",
 
-"https://images.dailyobjects.com/marche/assets/images/other/artboard-2.jpg?tr=cm-pad_crop,v-2,w-353,dpr-1"
+  "https://images.dailyobjects.com/marche/assets/images/other/artboard-2.jpg?tr=cm-pad_crop,v-2,w-353,dpr-1",
 
+  "https://images.dailyobjects.com/marche/assets/images/other/watchbands-ups.jpg?tr=cm-pad_crop,v-2,w-625,dpr-1",
+
+  "https://images.dailyobjects.com/marche/assets/images/other/group-6677.jpg?tr=cm-pad_crop,v-2,w-625,dpr-1",
 ];
 
 let first_block = document.querySelector(".imag1");
@@ -45,12 +48,115 @@ let img_3 = document.createElement("img");
 
 setInterval(() => {
   let num = Math.round(Math.random() * 9 + 1);
+
+  if (num <= 3) num += 3;
+
   img_1.setAttribute("src", image_1[num]);
   first_block.append(img_1);
 
-  img_2.setAttribute("src", image_1[num -2]);
+  img_2.setAttribute("src", image_1[num + 1]);
   second_block.append(img_2);
 
-  img_3.setAttribute("src", image_1[num +3]);
+  img_3.setAttribute("src", image_1[num + 2]);
   third_block.append(img_3);
 }, 2000);
+
+// email subscribing
+
+let email = document.querySelector("input[type='email']");
+
+let submmition = document.querySelector("input[type='submit']");
+
+let email_popup = document.querySelector("#email-popup");
+let wrong_popup = document.querySelector("#wrong-image");
+
+email.addEventListener("focus", (e) => {
+  e.preventDefault();
+  email.style.outline = "none";
+  email.style.border = "none";
+});
+
+submmition.addEventListener("click", (e) => {
+  e.preventDefault();
+  let regex = /[a-z]+[0-9]{1,5}@gmail.com/gi;
+
+  let result = regex.test(email.value);
+  if (result) {
+    email_popup.style.visibility = "visible";
+    document.querySelector("body").style.backgroundColor = "grey";
+
+    setTimeout(() => {
+      email_popup.style.visibility = "hidden";
+
+      document.querySelector("body").style.backgroundColor = "white";
+    }, 3000);
+  } else {
+    wrong_popup.style.visibility = "visible";
+    setTimeout(() => {
+      wrong_popup.style.visibility = "hidden";
+    }, 1000);
+  }
+});
+
+// top scroll
+let top_scroll = document.getElementById("top-scroll");
+
+window.onscroll = () => {
+  scroll();
+};
+
+// when you are scrolling 20 pixel from the top
+function scroll() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    top_scroll.style.display = "block";
+  } else {
+    top_scroll.style.display = "none";
+  }
+}
+
+// when you are click to get the top
+
+top_scroll.addEventListener("click", function () {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+});
+
+// drop-own menu
+
+let new_arr = document.querySelector("#drop-down-for-new-arr");
+
+let acces = document.querySelector("#drop-down-for-accessories");
+
+let hoom_office = document.querySelector("#drop-down-hoom-office");
+
+let button_1 = document.querySelector(".btnn1");
+let button_2 = document.querySelector(".btnn2");
+let button_3 = document.querySelector(".btnn3");
+
+button_1.addEventListener("click", () => {
+  new_arr.style.visibility = "visible";
+  acces.style.visibility = "hidden";
+  hoom_office.style.visibility = "hidden";
+});
+
+button_2.addEventListener("click", () => {
+  acces.style.visibility = "visible";
+  new_arr.style.visibility = "hidden";
+  hoom_office.style.visibility = "hidden";
+});
+
+button_3.addEventListener("click", () => {
+  hoom_office.style.visibility = "visible";
+  acces.style.visibility = "hidden";
+  new_arr.style.visibility = "hidden";
+});
+
+let click = document.querySelectorAll(".clk");
+
+for (const ele of click) {
+  ele.addEventListener("click", (e) => {
+    new_arr.style.visibility = "hidden";
+    acces.style.visibility = "hidden";
+    hoom_office.style.visibility = "hidden";
+  });
+}
