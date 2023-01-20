@@ -263,3 +263,146 @@ height: 100%;
   background-color: transparent;
 }
 
+
+/* watch band image  */
+#watch-brand {
+  height: 90%;
+}
+#watch-brand img {
+  width: 100%;
+}
+
+/* colletion part of this website */
+
+#collection {
+  padding: 40px;
+  margin-bottom: 20px;
+}
+#collection #collection-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 900;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+#view-all {
+  text-align: right;
+  margin-bottom: 15px;
+}
+#perentof-under-the-collection {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-content: center;
+}
+#perentof-under-the-collection img {
+  width: 100%;
+  margin-bottom: 5px;
+}
+#perentof-under-the-collection h2 {
+  font-size: 19px;
+}
+#perentof-under-the-collection p {
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+#perentof-under-the-collection button {
+  border: none;
+  text-decoration: underline;
+  font-size: 16px;
+  background-color: transparent;
+}
+
+/* organiser image of this website */
+
+#organiser {
+  height: 90%;
+  margin-bottom: 70px;
+}
+#organiser img {
+  width: 100%;
+}
+
+/* corporate gifting image  */
+
+#corporate-gifting {
+  height: 90%;
+}
+#corporate-gifting img {
+  width: 100%;
+}
+
+/* our story portion this this website */
+#our-story {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  padding: 55px;
+}
+#our-story img {
+  width: 100%;
+}
+#our-story #our-story-title {
+  font-size: 40px;
+  font-weight: 900;
+  font-family: "Poppins", sans-serif;
+}
+#our-story p {
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+#our-story button {
+  border: none;
+  text-decoration: underline;
+  font-size: 16px;
+  background-color: transparent;
+}
+
+/* @dailyobject _ ofiicial feateatured in part */
+#daily-official {
+  height: 20rem;
+  border: 0.3px solid rgba(128, 128, 128, 0.284);
+  border-right: none;
+  border-left: none;
+  padding: 40px;
+  padding-bottom: 50px;
+}
+#daily-official h2 {
+  text-align: center;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+#daily-object-image {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  column-gap: 25px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+/* #daily-object-image::-webkit-scrollbar{
+display: none
+} */
+#daily-object-image img {
+  width: 18vw;
+}
+
+/* featured in part  */
+
+#featured-in {
+  padding: 20px;
+  padding-bottom: 50px;
+  height: 40%;
+  border-bottom: 0.3px solid rgba(128, 128, 128, 0.284);
+}
+#featured-in p {
+  text-align: center;
+  font-weight: 1000;
+  font-size: 30px;
+}
+#featured-in img {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+
+/* GET EXCLUSIVE ACCESS TO NEW PRODUCTS, DEALS & SURPRISE TREATS */
