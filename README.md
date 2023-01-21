@@ -10,7 +10,7 @@
 # Daily Object.com
 
 A E-commerse site of india , where you can buy diffrent diffrent product according to your needs
-<p align="left">![Logo](https://user-images.githubusercontent.com/106768235/213869400-16f40cff-6395-479b-9026-6e1e0b1ebc2f.png)</p>
+<p align="left"><img src="https://user-images.githubusercontent.com/106768235/213869400-16f40cff-6395-479b-9026-6e1e0b1ebc2f.png"></p>
 
 <br>
 
