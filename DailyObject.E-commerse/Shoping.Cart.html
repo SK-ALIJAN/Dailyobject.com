@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shoping cart</title>
+    <link rel="shortcut icon" href="https://iili.io/HajVAyN.png" type="image/x-icon">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        body::-webkit-scrollbar {
+            background-color: rgba(255, 252, 240, 0);
+            width: 0.5rem;
+        }
+
+        body::-webkit-scrollbar-thumb {
+            background-color: rgb(0, 242, 113);
+            border-radius: 11px;
+        }
+
+        body {
+            position: relative;
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 34px;
+            border: 0.3px solid rgba(135, 135, 135, 0.593);
+            border-right: none;
+            border-right: none;
+            max-height: 4rem;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        #logo img {
+            width: 3.3rem;
+        }
+
+        #under-navbar2 {
+            width: 25%;
+            max-height: 4rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            cursor: pointer;
+        }
+
+
+        #hoom img {
+            width: 1rem;
+        }
+
+        main {
+            text-align: center;
+            position: relative;
+            top: 30vh;
+            padding: 11px;
+            line-height: 2rem;
+        }
+
+        main p {
+            font-size: small;
+            color: gray;
+        }
+
+        main button {
+            border: none;
+            background-color: rgb(16, 211, 146);
+            color: white;
+            padding: 20px;
+            padding-left: 40px;
+            padding-right: 40px;
+            font-weight: 700;
+        }
+
+        #display {
+            background-color: rgb(127, 5, 240);
+            padding: 50px;
+            width: 15rem;
+            text-transform: capitalize;
+            text-align: center;
+            color: white;
+            border-radius: 8px;
+            box-shadow: 0.7px 0.7px 3px rgb(22, 22, 22);
+            margin: auto;
+            z-index: 2;
+            display: none;
+        }
+
+        #display h3 {
+            margin-bottom: 40px;
+        }
+
+        #display button {
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: 500;
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav>
+        <div id="logo">
+        <a href="./index.html">
+        <img src="https://iili.io/HajVAyN.png" alt="logo"></a>
+            
+        </div>
+
+        <div id="under-navbar2">
+
+            <a id="hoom" href="./index.html">
+                <img src="https://cdn-icons-png.flaticon.com/128/2163/2163350.png">
+            </a>
+
+          <a href="./login-page.html"><img 
+                src="https://images.dailyobjects.com/marche/icons/Profile.png?tr=cm-pad_resize,v-2,w-16,h-16,dpr-1"
+                alt="icon"></a>  
+
+            <img class="nothing"
+                src="https://images.dailyobjects.com/marche/icons/Search.png?tr=cm-pad_resize,v-2,w-16,h-16,dpr-1"
+                alt="icon">
+        </div>
+    </nav>
+
+    <main>
+        <h2>YOUR SHOPPING CART IS EMPTY</h2>
+        <p>Fill it with DailyObjects
+        </p>
+
+        <a href="./index.html"><button>BROWSE PRODUCTS</button></a>
+    </main>
+
+    <div id="display">
+        <h3>Empty &#x1F615;</h3>
+        <button id="btn">Close</button>
+    </div>
+</body>
+
+<script>
+    let button = document.querySelectorAll(".nothing");
+    let display = document.querySelector("#display");
+    let close = document.getElementById("btn").addEventListener("click", () => {
+        display.style.display = "none";
+    })
+   for(const  ele of button) {
+       ele.addEventListener("click",()=>{
+         display.style.display="block";
+       })
+    }
+        
+
+
+</script>
+
+</html>
