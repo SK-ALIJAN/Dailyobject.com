@@ -1,4 +1,4 @@
-# Hi, I'm Sk Alijan! 👋
+<center># Hi, I'm Sk Alijan! 👋<center>
 
 
 ## 🚀 About Me
