@@ -1,8 +1,17 @@
-<center># Hi, I'm Sk Alijan! 👋<center>
 
+<h1 align="center">Hi 🙋‍♂️, I'm Sk Alijan</h1>
+<h3 align="center">A Passionate full Stack Web Developer </h3>
 
-## 🚀 About Me
-I'm a full stack developer...
+`🚀 About Me:`
+- 🔭 I’m currently working on **Full stack web devlopment**
+- 👀 I’m interested in full stack web devlopment
+- 🌱 I’m currently learning at Masai School
+- 🤔 I'm looking for JOB
+- 😃 Pronouns: he/his
+- 📫 How to reach me <a href="https://twitter.com/alijan8695" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="alijan8695" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/alijan786" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="alijan786" height="30" width="40" /></a>
+<a href="https://fb.com/alijan8695" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="alijan8695" height="30" width="40" /></a>
+<a href="https://instagram.com/SK_ALIJAN123" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="SK_ALIJAN123" height="30" width="40" /></a>
 
 
 # Daily Object.com
