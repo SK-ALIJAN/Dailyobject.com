@@ -8,7 +8,7 @@ I'm a full stack developer...
 # Daily Object.com
 
 A E-commerse site of india , where you can buy diffrent diffrent product according to your needs
-![Logo](https://iili.io/HajVAyN.png)
+![Logo](![68747470733a2f2f69696c692e696f2f48616a5641794e2e706e67-removebg-preview](https://user-images.githubusercontent.com/106768235/213869323-26e1c91e-8083-4837-9a86-dc99bdaa2e59.png))
 
 
 ## Overview of website
