@@ -1,15 +1,6 @@
 
-<h1 align="center">Hi 🙋‍♂️, I'm Sk Alijan</h1>
-<h3 align="center">A Passionate full Stack Web Developer </h3>
-
-`🚀 About Me:`
-- 🔭 I’m currently working on **Full stack web devlopment**
-- 👀 I’m interested in full stack web devlopment
-
-
 # Daily Object.com
-
-A E-commerse site of india , where you can buy diffrent diffrent product according to your needs
+Welcome to our online shopping # Daily Object.com! Our website offers a delightful shopping experience where you can explore a wide range of products and purchase them with just a few clicks. From trendy fashion to must-have electronics, we have it all at your fingertips. Shop till you drop and enjoy the convenience of online shopping with us!
 <p align="left"><img src="https://user-images.githubusercontent.com/106768235/213869400-16f40cff-6395-479b-9026-6e1e0b1ebc2f.png"></p>
 
 <br>
@@ -19,15 +10,17 @@ A E-commerse site of india , where you can buy diffrent diffrent product accordi
 
 https://user-images.githubusercontent.com/106768235/213859164-1c6cfd11-9977-40b3-b473-fc6ea22cc5c7.mp4
 
+# tech stack
+❖ html ❖ CSS ❖ JavaScript ❖ Localstarage
+
 
 ## To visit 
 
 https://my-dailyobject.netlify.app/
 
 ## Authors
-
 - Sk Alijan
-
+The entire development of this project was done by a single individual.
 
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://katherineoelsner.com/)
