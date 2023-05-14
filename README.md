@@ -4,7 +4,7 @@ Welcome to our online shopping Daily Object.com! Our website offers a delightful
 
 
 <p align="center"><img src="https://github.com/SK-ALIJAN/Dailyobject.com/assets/106768235/9b4e9f84-9d54-4fc5-94f0-50527e650a3b"></p> <br>
-#  ❖ tech stack
+## ❖ tech stack
 ❖ html ❖ CSS ❖ JavaScript ❖ Localstarage
 <br>
 
